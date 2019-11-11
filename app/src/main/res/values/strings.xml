@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyToraTora</string>
+    <string name="ToraTora_text">とらと〜ら　と〜らとら♪</string>
+    <string name="Kiyomasa_text">やり</string>
+    <string name="Tora_Text">とら</string>
+    <string name="Oba_Text">つえ</string>
+    <string name="result_win">あなたの勝ちどす</string>
+    <string name="result_lose">あなたの負けどす</string>
+    <string name="result_draw">引き分けどす</string>
+    <string name="back_button">戻る</string>
+    <string name="you">あなた</string>
+    <string name="com">あいて</string>
+</resources>

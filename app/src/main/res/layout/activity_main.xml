@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/ObaButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/ToraButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:srcCompat="@drawable/koshi_magari_smile_obaasan" />
+
+    <TextView
+        android:id="@+id/ToraToraText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ToraTora_text"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ToraToraImage"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <ImageButton
+        android:id="@+id/ToraButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="108dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ToraToraText"
+        app:srcCompat="@drawable/animalface_tora" />
+
+    <ImageButton
+        android:id="@+id/KiyomasaButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ToraButton"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        app:srcCompat="@drawable/nigaoe_katoukiyomasa" />
+
+    <ImageView
+        android:id="@+id/ToraToraImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="28dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/maiko_ozashiki_asobi_toratora" />
+
+    <TextView
+        android:id="@+id/KiyomasaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Kiyomasa_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/KiyomasaButton"
+        app:layout_constraintEnd_toEndOf="@+id/KiyomasaButton"
+        app:layout_constraintStart_toStartOf="@+id/KiyomasaButton" />
+
+    <TextView
+        android:id="@+id/ToraText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Tora_Text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ToraButton"
+        app:layout_constraintEnd_toEndOf="@+id/ToraButton"
+        app:layout_constraintStart_toStartOf="@+id/ToraButton" />
+
+    <TextView
+        android:id="@+id/ObaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Oba_Text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ObaButton"
+        app:layout_constraintEnd_toEndOf="@+id/ObaButton"
+        app:layout_constraintStart_toStartOf="@+id/ObaButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
